@@ -26,16 +26,38 @@
 - **User stories** :
 
 | Version                | En tant que | Je veux | Afin de | 
-| ---------------------- | ----------- | ------- | ------- |
-| Visiteur / Utilisateur | Indiquer ce que j'ai consommé | Calculer mon taux d'alcolémie |
-| Visiteur / Utilisateur | Indiquer mon genre | Calculer mon taux d'alcolémie |
-| Visiteur / Utilisateur | Indiquer mon poids | Calculer mon taux d'alcolémie |
-| Visiteur / Utilisateur | Valider mes informations | Afficher de résultat de mon taux d'alcolémie |
-| Utilisateur            | Créer un compte | Utiliser toutes les fonctionnalités de l'app |
-| Utilisateur            | Enregistrer le résultat de l'étylotest | Suivre ma consommation |
-| Utilisateur            |||
+|------------------------| ----------- | ------- | ------- |
+| MVP | Visiteur / Utilisateur | Indiquer ce que j'ai consommé | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer mon genre | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer mon poids | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Valider mes informations | Afficher de résultat de mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Pouvoir gérer les cookies | Faire respecter mes droits liés au RGPD |
+| V1 | Utilisateur             | Créer un compte | Utiliser toutes les fonctionnalités de l'app |
+| V1 | Utilisateur             | Modifier mon compte | Changer les paramètres de mon compte |
+| V1 | Utilisateur             | Supprimer mon compte | Supprimer toutes les informations et accès au compte |
+| V1 | Utilisateur             | Créer un profil | Pré-remplir l'éthylotest avec les données de profil enregistrées |
+| V1 | Utilisateur             | Modifier un profil | Modifier les données d'un profil |
+| V1 | Utilisateur             | Supprimer un profil | Supprimer mon profil utilisateur et toutes les données liées à ce profil |
+| V1 | Utilisateur             | Enregistrer le résultat de l'étylotest | Alimenter Les données de mon dashboard |
+| V1 | Utilisateur             | Accéder à mon dashboard | Suivre ma consommation |
+| V2 | Utilisateur             | Créer plusieurs profil | Suivre la consommation d'autres personnes |
+| V2 | Utilisateur             | Modifier chaque profil | Modifier les données d'un profil et le profil |
+| V2 | Utilisateur             | Supprimer chaque profil | Supprimer les données d'un profil et le profil |
 
-- **Pages du site** : Listez les pages à créer (ex. : page d'accueil, page produit, page contact, blog, etc.)
+
+- **Pages du site** : 
+
+| Version | Page | Contenu |
+|---|---|---|
+| MVP | Accueil | Accès à l'éthylotest |
+| MVP | Contact | Page de contact |
+| MVP | Mentions légales | Toutes les mentions légales |
+| V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) |
+| V1 | Edition de compte | Formulaire d'édition du compte principal |
+| V1 | Edition de profil | Formulaire d'édition du profil |
+| V1 | Edition de profil | Formulaire d'édition du profil |
+| V2 | Choix du profil à éditer | Formulaire d'édition du profil selectionné |
+
 - **Interactions utilisateurs** : Décrivez les actions que l'utilisateur pourra effectuer (s’inscrire, poster un commentaire, acheter un produit, etc.).
 
 ## 4. Cahier des charges technique
