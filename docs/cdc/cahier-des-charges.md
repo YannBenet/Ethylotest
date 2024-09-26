@@ -50,10 +50,36 @@
 | Version | Page | Contenu |
 |---|---|---|
 | MVP | Accueil | Accès à l'éthylotest |
-| MVP | Contact | Page de contact |
 | MVP | Mentions légales | Toutes les mentions légales |
+| V1 | Contact | Page de contact |
 | V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) |
 | V1 | Edition de compte | Formulaire d'édition du compte principal |
 | V1 | Edition de profil | Formulaire d'édition du profil |
 | V1 | Edition de profil | Formulaire d'édition du profil |
 | V2 | Choix du profil à éditer | Formulaire d'édition du profil selectionné |
+
+
+## 4. Cahier des charges technique
+- **Technologies utilisées** : 
+  - Front-end : HTML5, CSS3, JavaScript, TypeScript, ReactJS
+  - Back-end : NodeJS, NPM, Express
+  - Backend : PSQL, MongoDB
+
+- **Hébergement et nom de domaine** : 
+  - Hébergement à choisir, de préférence avec possibilité de créer un pipeline CI/CD. Voir avec heroku ou Digital Ocean
+  - nom de domaine : *******
+
+- **Sécurité** Se référer à [l'OWASP](https://owasp.org/www-project-top-ten/) : 
+
+  - Protocole HTTPS
+  - Authentification sécurisé :
+    - Gestion des sessions utilisateur avec cookie (Secure, HttpOnly, SameSite)
+    - Expiration de sessions
+    - JWT
+    - Hash des mots de passe (bcrypt)
+    - Jetons CSRF
+  - Echappement de données front (React) et back (Paramètrage positionnel)
+  - Utiliser les CSP (Content Security Policy) pour limiter les sources de contenu autorisées
+  - Utiliser CORS (Cross-Origin Resource Sharing) pour contrôler les requêtes HTTP cross-origin
+  - Journalisation et surveillance
+  -  Validation de données avec des schémas pour assurer l'intégrité et la sécurité des données (Joi, mongoose.schema)
