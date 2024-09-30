@@ -27,15 +27,17 @@
 
 | Version                | En tant que | Je veux | Afin de | 
 |------------------------| ----------- | ------- | ------- |
-| MVP | Visiteur / Utilisateur | Indiquer ce que j'ai consommé | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer l'alcool que j'ai consommé | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer le degrè d'alcool consommé | Calculer mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Indiquer mon genre | Calculer mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Indiquer mon poids | Calculer mon taux d'alcolémie |
-| MVP | Visiteur / Utilisateur | Valider mes informations | Afficher de résultat de mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer la quantitée d'alcool consommée | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Valider mes informations | Afficher le résultat de mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Pouvoir gérer les cookies | Faire respecter mes droits liés au RGPD |
 | V1 | Utilisateur             | Créer un compte | Utiliser toutes les fonctionnalités de l'app |
 | V1 | Utilisateur             | Modifier mon compte | Changer les paramètres de mon compte |
 | V1 | Utilisateur             | Supprimer mon compte | Supprimer toutes les informations et accès au compte |
-| V1 | Utilisateur             | Créer un profil | Pré-remplir l'éthylotest avec les données de profil enregistrées |
+| V1 | Visiteur                | Créer un profil | Pré-remplir l'éthylotest avec les données de profil enregistrées |
 | V1 | Utilisateur             | Modifier un profil | Modifier les données d'un profil |
 | V1 | Utilisateur             | Supprimer un profil | Supprimer mon profil utilisateur et toutes les données liées à ce profil |
 | V1 | Utilisateur             | Enregistrer le résultat de l'étylotest | Alimenter Les données de mon dashboard |
@@ -51,6 +53,7 @@
 |---|---|---|
 | MVP | Accueil | Accès à l'éthylotest |
 | MVP | Mentions légales | Toutes les mentions légales |
+| MVP | A propos | Plus d'informations sur l'app et pourquoi s'inscrire |
 | V1 | Contact | Page de contact |
 | V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) |
 | V1 | Edition de compte | Formulaire d'édition du compte principal |
