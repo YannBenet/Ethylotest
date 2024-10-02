@@ -49,17 +49,18 @@
 
 - **Pages du site** : 
 
-| Version | Page | Contenu |
-|---|---|---|
-| MVP | Accueil | Accès à l'éthylotest |
-| MVP | Mentions légales | Toutes les mentions légales |
-| MVP | A propos | Plus d'informations sur l'app et pourquoi s'inscrire |
-| V1 | Contact | Page de contact |
-| V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) |
-| V1 | Edition de compte | Formulaire d'édition du compte principal |
-| V1 | Edition de profil | Formulaire d'édition du profil |
-| V1 | Edition de profil | Formulaire d'édition du profil |
-| V2 | Choix du profil à éditer | Formulaire d'édition du profil selectionné |
+| Version | Page | Contenu | wireframe |
+|---|---|---|---|
+| MVP | Accueil | Accès à l'éthylotest sans être connecté | [Accueil déconnecté](./wireframes/home-logout.png)
+| MVP | Accueil | Accès à l'éthylotest connecté | [Accueil connecté](./wireframes/home-logged.png)
+| MVP | Résultat | Accès à l'éthylotest | [Résultat](./wireframes/result.png)
+| MVP | Mentions légales | Toutes les mentions légales | [Mentions légales](./wireframes/legal-notices.png)
+| MVP | A propos | Plus d'informations sur l'app et pourquoi s'inscrire | [A propos](./wireframes/about.png)
+| V1 | Contact | Page de contact | [A FAIRE](#)
+| V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) | [A FAIRE](./wireframes/#)
+| V1 | Edition de compte | Formulaire d'édition du compte principal | [Edition du compte](./wireframes/edit-account.png)
+| V1 | Edition de profil | Formulaire d'édition du profil | [Edition de profil](./wireframes/edit-profile.png)
+| V2 | Choix du profil à éditer | Formulaire d'édition du profil selectionné | [Choix de profil (dans le header)](./wireframes/home-logged.png)
 
 
 ## 4. Cahier des charges technique
