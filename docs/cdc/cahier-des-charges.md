@@ -51,16 +51,16 @@
 
 | Version | Page | Contenu | wireframe |
 |---|---|---|---|
-| MVP | Accueil | Accès à l'éthylotest sans être connecté | [Accueil déconnecté](./wireframes/home-logout.png)
-| MVP | Accueil | Accès à l'éthylotest connecté | [Accueil connecté](./wireframes/home-logged.png)
-| MVP | Résultat | Accès à l'éthylotest | [Résultat](./wireframes/result.png)
-| MVP | Mentions légales | Toutes les mentions légales | [Mentions légales](./wireframes/legal-notices.png)
-| MVP | A propos | Plus d'informations sur l'app et pourquoi s'inscrire | [A propos](./wireframes/about.png)
-| V1 | Contact | Page de contact | [A FAIRE](#)
-| V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) | [A FAIRE](./wireframes/#)
-| V1 | Edition de compte | Formulaire d'édition du compte principal | [Edition du compte](./wireframes/edit-account.png)
-| V1 | Edition de profil | Formulaire d'édition du profil | [Edition de profil](./wireframes/edit-profile.png)
-| V2 | Choix du profil à éditer | Formulaire d'édition du profil selectionné | [Choix de profil (dans le header)](./wireframes/home-logged.png)
+| MVP | Accueil | Accès à l'éthylotest sans être connecté | [Accueil déconnecté](./wireframes/home-logout.png) |
+| MVP | Accueil | Accès à l'éthylotest connecté | [Accueil connecté](./wireframes/home-logged.png) |
+| MVP | Résultat | Accès à l'éthylotest | [Résultat](./wireframes/result.png) |
+| MVP | Mentions légales | Toutes les mentions légales | [Mentions légales](./wireframes/legal-notices.png) |
+| MVP | A propos | Plus d'informations sur l'app et pourquoi s'inscrire | [A propos](./wireframes/about.png) |
+| V1 | Contact | Page de contact | [A FAIRE](#) |
+| V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) | [A FAIRE](./wireframes/#) |
+| V1 | Edition de compte | Formulaire d'édition du compte principal | [Edition du compte](./wireframes/edit-account.png) |
+| V1 | Edition de profil | Formulaire d'édition du profil | [Edition de profil](./wireframes/edit-profile.png) |
+| V2 | Choix du profil à éditer | Formulaire d'édition du profil selectionné | [Choix de profil (dans le header)](./wireframes/home-logged.png) |
 
 
 ## 4. Cahier des charges technique
@@ -86,4 +86,47 @@
   - Utiliser les CSP (Content Security Policy) pour limiter les sources de contenu autorisées
   - Utiliser CORS (Cross-Origin Resource Sharing) pour contrôler les requêtes HTTP cross-origin
   - Journalisation et surveillance
-  -  Validation de données avec des schémas pour assurer l'intégrité et la sécurité des données (Joi, mongoose.schema)
+  - Validation de données avec des schémas pour assurer l'intégrité et la sécurité des données (Joi, mongoose.schema)
+
+- **Compatibilité et responsive design** : Le site doit être compatible avec la majorité des navigateurs et device.
+- **Performance** : Temps de chargement des pages rapide.
+- **API et intégrations** : Une API doit être créée afin de référencer les boissons / types de boissons / degrè d'alcool...
+
+## 5. Maquettes
+
+- **Wireframes et maquettes** : Les wireframes sont disponible dans le dossier [wireframes](./wireframes) : 
+
+| Page | wireframe |
+|---|---|
+|Accueil | [Accueil déconnecté](./wireframes/home-logout.png) |
+|Accueil | [Accueil connecté](./wireframes/home-logged.png) |
+|Résultat | [Résultat](./wireframes/result.png) |
+| Mentions légales | [Mentions légales](./wireframes/legal-notices.png) |
+|A propos | [A propos](./wireframes/about.png) |
+| Contact | [A FAIRE](#) |
+| Dashboard | [A FAIRE](./wireframes/#) |
+| Edition de compte | [Edition du compte](./wireframes/edit-account.png) |
+| Edition de profil | [Edition de profil](./wireframes/edit-profile.png) |
+| Choix du profil à éditer | [Choix de profil (dans le header)](./wireframes/home-logged.png) |
+
+- **Expérience utilisateur (UX)** : 
+
+1. L'utilisateur doit avoir accès à la fonctionnalité principale de l'Ethylotest dès sa connexion.
+2. L'utilisateur doit avoir un résultat après utilisation de la fonctinonalité, qu'il soit connecté ou non.
+3. L'utilisateur doit pouvoir s'inscrire, se connecter ou se déconnecter depuis n'importe quelle page
+
+## 6. Planning et délais
+- **Phases du projet** : Détaillez les différentes étapes (conception, développement, tests, mise en production).
+  - Conception
+  - Développement
+  - tests
+  - Mise en production
+
+- **Deadlines** : Précisez les échéances pour chaque étape, avec une date de livraison finale.
+  - Conception
+  - Développement
+  - tests
+  - Mise en production
+
+- **Priorités** : Si certaines fonctionnalités sont prioritaires, mentionnez-les.
+  1. Mise en production du MVP
