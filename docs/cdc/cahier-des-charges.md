@@ -57,7 +57,7 @@
 | MVP | Mentions légales | Toutes les mentions légales | [Mentions légales](./wireframes/legal-notices.png) |
 | MVP | A propos | Plus d'informations sur l'app et pourquoi s'inscrire | [A propos](./wireframes/about.png) |
 | V1 | Contact | Page de contact | [A FAIRE](#) |
-| V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) | [A FAIRE](./wireframes/#) |
+| V1 | Dashboard | graphique de la consommation (Annuelle, mensuelle, hebdomadaire ou journalière) | [Dashboard](./wireframes/dashboard.png) |
 | V1 | Edition de compte | Formulaire d'édition du compte principal | [Edition du compte](./wireframes/edit-account.png) |
 | V1 | Edition de profil | Formulaire d'édition du profil | [Edition de profil](./wireframes/edit-profile.png) |
 | V2 | Choix du profil à éditer | Formulaire d'édition du profil selectionné | [Choix de profil (dans le header)](./wireframes/home-logged.png) |
@@ -104,7 +104,7 @@
 | Mentions légales | [Mentions légales](./wireframes/legal-notices.png) |
 |A propos | [A propos](./wireframes/about.png) |
 | Contact | [A FAIRE](#) |
-| Dashboard | [A FAIRE](./wireframes/#) |
+| Dashboard | [Dashboard](./wireframes/dashboard.png) |
 | Edition de compte | [Edition du compte](./wireframes/edit-account.png) |
 | Edition de profil | [Edition de profil](./wireframes/edit-profile.png) |
 | Choix du profil à éditer | [Choix de profil (dans le header)](./wireframes/home-logged.png) |
