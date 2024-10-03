@@ -1,7 +1,8 @@
 # Cahier des charges pour le projet ETHYLOTEST
+Ce cahier des charges va évoluer avec le temps. Il doit être une référence pour tous et toujours à jour.
 
 ## 1. Introduction
-- **Contexte** : Ce projet existe car mon meilleur amis vient d'avoir son permis, il est donc considéré comme jeune conducteur et se trouve dans une posture stressante lorsqu'il doit rentrer de soirée après avoir bu un verre. En effet, en étant jeune conducteur les règles sont différentes pour les taux d'alcolémie à ne pas dépasser.
+- **Contexte** : Ce projet existe car un ami vient d'avoir son permis, il est donc considéré comme jeune conducteur et se trouve dans une posture stressante lorsqu'il doit rentrer de soirée après avoir bu un verre. En effet, en étant jeune conducteur les règles sont différentes pour les taux d'alcolémie à ne pas dépasser.
 
 - **Objectifs** : L'objectif est de pouvoir controler sa consommation d'alcool, si le conducteur n'à plus d'ethylotest, afin de savoir si il peut prendre la route. Le but n'est pas de remplacer l'ethylotest mais d'avoir un solution alternative à caractère préventif. L'objectif secondaire est de pouvoir suivre sa consommation d'alcool au quotidien.
 
@@ -116,17 +117,50 @@
 3. L'utilisateur doit pouvoir s'inscrire, se connecter ou se déconnecter depuis n'importe quelle page
 
 ## 6. Planning et délais
-- **Phases du projet** : Détaillez les différentes étapes (conception, développement, tests, mise en production).
+- **Phases du projet** : 
   - Conception
-  - Développement
+  - Développement du MVP
   - tests
-  - Mise en production
+  - Mise en production du MVP
 
-- **Deadlines** : Précisez les échéances pour chaque étape, avec une date de livraison finale.
-  - Conception
-  - Développement
-  - tests
-  - Mise en production
+- **Deadlines** (à titre indicatif, projet perso développé sur mon temps libre): 
+  - Conception : 09/10/2024
+  - Développement : 31/10/2024
+  - tests : 31/10/2024
+  - Mise en production : 08/11/2024
 
-- **Priorités** : Si certaines fonctionnalités sont prioritaires, mentionnez-les.
-  1. Mise en production du MVP
+- **Priorités** :
+  1. Fonctionnalité d'Ethylotest
+  2. MVP
+
+## 7. Budget
+- **Coût estimé** : 29 jours.
+
+## 8. Maintenance et évolutions
+- **Maintenance technique** : Un suivi et une maintenance sont prévues après la mise en production.
+- **Évolutivité** : Les versions V1 et V2 suivront après la mise en production du MVP
+- **SLA (Service Level Agreement)** : 
+  - Disponibilité : 99.9%.
+  - Performance : Moins de 200ms.
+  - Support et maintenance : N/A.
+  - Pénalités : 20 coups de fouet.
+  - Surveillance et reporting : Datadog.
+
+## 9. Tests et validation
+- **Tests à effectuer** : 
+  - **Tests unitaires** : Vérifier les fonctions de manipulation des données et les requêtes.
+  - **Tests d'intégration** : Vérifier les interactions entre l'application et la base de données.
+  - **Tests fonctionnels** : Tester les fonctionnalités principales (Ethylotest, inscription, connexion).
+  - **Tests de performance** : Évaluer le temps de réponse des requêtes et la capacité de la base de données.
+  - **Tests de charge** : Simuler un grand nombre d'utilisateurs simultanés.
+  - **Tests de sécurité** : Identifier les vulnérabilités (injections SQL, XSS).
+  - **Tests de compatibilité** : Vérifier le fonctionnement sur différents navigateurs et appareils.
+  - **Tests de régression** : S'assurer que les nouvelles modifications n'introduisent pas de bugs.
+
+## 10. Équipe projet et communication
+- **Rôles et responsabilités** : 
+  - Yann Bénet (Product Owner, Développeur).
+- **Méthodologie de travail** : 
+  - Kanban.
+- **Outils de suivi** : 
+  - Trello.
