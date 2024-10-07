@@ -13,16 +13,29 @@ Ce cahier des charges va évoluer avec le temps. Il doit être une référence p
 
 ## 3. Cahier des charges fonctionnel
 - **Fonctionnalités principales** :
-  - Utiliser l'app comme un Ethylotest
-  - Gestion des utilisateurs : authentification, création de compte, mot de passe oublié, etc.
-  - Gestion de profil : Indiquer son poids, son genre afin de le prendre en compte dans les calculs
-  - Avoir un dashboard de sa consommation d'alcool
-  - Suivi et statistiques (Google Analytics, rapport d’activités)
-  - Notification (email, push, SMS, etc.)
+  - Utiliser l'app comme un Ethylotest. Pour fonctionner l'Ethylotest à besoin des informations suivantes :
+    - le poid
+    - le degrè d'alcool
+    - le genre
+    - le temps passé depuis la dernière consommation
+    - A jeun ou non
+  
+  - Authentification grace à un compte, qui à besoin des informations suivantes :
+    - un email
+    - un mot de passe
+  
+  - Mot de passe oublié :
+    - Réinitialisation du mot de passe
+    - Notification email pour les mots de passe oublié
 
-- **Fonctionnalités secondaires** :
-  - Avoir la possibilité de rechercher un alcool et obtenir une fiche complète à son sujet
-  - Enregistrer ses alcools favoris
+  - Gestion de plusieurs profils par compte pour pré-remplir les champs de l'ethylotest avec ces informations : 
+    - son poids
+    - son genre
+  - Déconnexion
+  - Avoir un dashboard de sa consommation d'alcool : 
+    - suivi journalié, hebdomadaire, mensuel ou annuel
+  - Suivi  avec Google Analytics
+
 
 - **User stories** :
 
@@ -30,9 +43,11 @@ Ce cahier des charges va évoluer avec le temps. Il doit être une référence p
 |------------------------| ----------- | ------- | ------- |
 | MVP | Visiteur / Utilisateur | Indiquer l'alcool que j'ai consommé | Calculer mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Indiquer le degrè d'alcool consommé | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer la quantitée d'alcool consommée | Calculer mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Indiquer mon genre | Calculer mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Indiquer mon poids | Calculer mon taux d'alcolémie |
-| MVP | Visiteur / Utilisateur | Indiquer la quantitée d'alcool consommée | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer le temps passé depuis la dernière consommation | Calculer mon taux d'alcolémie |
+| MVP | Visiteur / Utilisateur | Indiquer si l'utilisateur est a jeun ou non | Calculer mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Valider mes informations | Afficher le résultat de mon taux d'alcolémie |
 | MVP | Visiteur / Utilisateur | Pouvoir gérer les cookies | Faire respecter mes droits liés au RGPD |
 | V1 | Utilisateur             | Créer un compte | Utiliser toutes les fonctionnalités de l'app |
@@ -72,7 +87,7 @@ Ce cahier des charges va évoluer avec le temps. Il doit être une référence p
 
 - **Hébergement et nom de domaine** : 
   - Hébergement à choisir, de préférence avec possibilité de créer un pipeline CI/CD. Voir avec heroku ou Digital Ocean
-  - nom de domaine : *******
+  - nom de domaine : A voir
 
 - **Sécurité** Se référer à [l'OWASP](https://owasp.org/www-project-top-ten/) : 
 
@@ -116,7 +131,14 @@ Ce cahier des charges va évoluer avec le temps. Il doit être une référence p
 2. L'utilisateur doit avoir un résultat après utilisation de la fonctinonalité, qu'il soit connecté ou non.
 3. L'utilisateur doit pouvoir s'inscrire, se connecter ou se déconnecter depuis n'importe quelle page
 
-## 6. Planning et délais
+## 6. Déploiement et CI/CD
+- **Chaîne CI/CD** : Implémenter une chaîne CI/CD pour automatiser les tests, les builds et les déploiements.
+- **Outil CI/CD** : Utiliser Jenkins pour gérer la chaîne CI/CD.
+  - **Pipeline Jenkins** : Définir les étapes du pipeline (build, test, déploiement).
+  - **Automatisation des tests** : Intégrer les tests unitaires, d'intégration et de performance dans le pipeline.
+  - **Déploiement automatisé** : Configurer le déploiement automatique sur les environnements de staging et de production.
+
+## 7. Planning et délais
 - **Phases du projet** : 
   - Conception
   - Développement du MVP
@@ -133,10 +155,10 @@ Ce cahier des charges va évoluer avec le temps. Il doit être une référence p
   1. Fonctionnalité d'Ethylotest
   2. MVP
 
-## 7. Budget
+## 8. Budget
 - **Coût estimé** : 29 jours.
 
-## 8. Maintenance et évolutions
+## 9. Maintenance et évolutions
 - **Maintenance technique** : Un suivi et une maintenance sont prévues après la mise en production.
 - **Évolutivité** : Les versions V1 et V2 suivront après la mise en production du MVP
 - **SLA (Service Level Agreement)** : 
@@ -146,7 +168,7 @@ Ce cahier des charges va évoluer avec le temps. Il doit être une référence p
   - Pénalités : 20 coups de fouet.
   - Surveillance et reporting : Datadog.
 
-## 9. Tests et validation
+## 10. Tests et validation
 - **Tests à effectuer** : 
   - **Tests unitaires** : Vérifier les fonctions de manipulation des données et les requêtes.
   - **Tests d'intégration** : Vérifier les interactions entre l'application et la base de données.
@@ -157,7 +179,7 @@ Ce cahier des charges va évoluer avec le temps. Il doit être une référence p
   - **Tests de compatibilité** : Vérifier le fonctionnement sur différents navigateurs et appareils.
   - **Tests de régression** : S'assurer que les nouvelles modifications n'introduisent pas de bugs.
 
-## 10. Équipe projet et communication
+## 11. Équipe projet et communication
 - **Rôles et responsabilités** : 
   - Yann Bénet (Product Owner, Développeur).
 - **Méthodologie de travail** : 
