@@ -512,6 +512,7 @@ module.exports = {
 - **Hébergement et nom de domaine** : 
   - Hébergement à choisir, de préférence avec possibilité de créer un pipeline CI/CD. Voir avec heroku ou Digital Ocean
   - nom de domaine : A voir
+  - Mise en place d'un pipeline CI/CD pour automatiser les tests, les déploiements et les intégrations continues.
 
 - **Sécurité** Se référer à [l'OWASP](https://owasp.org/www-project-top-ten/) : 
 
